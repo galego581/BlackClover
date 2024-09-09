@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(172, 172, 172);
+}
+
+.branco{
+    color: white;
+}
+
+
+.header{
+    background-color: black;
+    padding: 13px;
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:  rgb(204, 26, 26);
+}
+
+.post p{
+    margin: 10px 0;
+}
+
+.menu, .logo{
+    padding: 6px;
+}
+
+.menu a, .menu a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+}
+
+.menu a:hover{
+    background-color: #FFD700;
+    color: black;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; 
+    margin-top: -10px; 
+    float: left;
+}
+
+.conteiner{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    float: center;
+    
+}
+
+.posts{
+    width: 1000px;
+    margin-left: 150px;
+ 
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(241, 241, 241);
+    float: center;
+}
+
+h2{
+    color: rgb(204, 26, 26);
+}
+
+.data-post{
+    font-size: 0.86em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+p{
+    text-align: justify;
+}
+
+.footer{
+    clear: both;
+    background-color: black;
+    padding: 10px;
+    margin-top: 1000px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}

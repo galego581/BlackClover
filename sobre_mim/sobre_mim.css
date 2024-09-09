@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(172, 172, 172);
+}
+
+.branco{
+    color: white;
+}
+
+.header{
+    background-color: black;
+    padding: 13px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:  rgb(204, 26, 26);
+}
+
+.menu, .logo{
+    padding: 6px;
+}
+
+.menu a, .menu a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+}
+
+.menu a:hover{
+    background-color: #FFD700;
+    color: black;
+}
+
+.conteiner{
+    width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.posts{
+    width: 1000px;
+    float: left;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(241, 241, 241);
+}
+
+h2{
+    color: rgb(255, 55, 55);
+}
+p{
+    text-align: justify;
+    padding: 3px;
+}
+
+img{
+    padding: 5px;
+}
+
+.data-post{
+    font-size: 0.86em;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.barra-lateral{
+    width: 350px;
+    float: right;
+    
+}
+
+.conteudo-lateral{
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    padding: 5px;
+}
+
+.post-destaque{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.post-destaque:lest-child{
+    border: none;
+}
+
+.footer{
+    clear: both;
+    background-color: black;
+    padding: 10px;
+    margin-top: 1000px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(172, 172, 172);
+}
+
+.branco{
+    color: white;
+}
+
+.header{
+    background-color: black;
+    padding: 13px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:  rgb(204, 26, 26);
+}
+
+.menu, .logo{
+    padding: 6px;
+}
+
+.menu a, .menu li:visited{
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+}
+
+.menu a:hover{
+    background-color: #FFD700;
+    color: black;
+}
+
+.pers{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas iguais */
+    gap: 20px; /* Espaço entre os itens */
+    padding: 20px;
+
+}
+.item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+}
+img {
+    max-width: 100%; /* Garante que a imagem se ajuste ao tamanho do contêiner */
+    height: auto;
+    border-radius: 4px; /* Adiciona cantos arredondados às imagens */
+}
+
+.footer{
+    clear: both;
+    background-color: black;
+    padding: 10px;
+    margin-top: 1000px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}
